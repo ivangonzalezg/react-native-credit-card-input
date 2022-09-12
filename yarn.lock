@@ -1292,10 +1292,12 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-flip-card@^3.4.1:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/react-native-flip-card/-/react-native-flip-card-3.5.2.tgz#6563f4a6d95b999c21e82deec9b2f502175847d6"
+"react-native-flip-card@npm:@ivangonzalezg/react-native-flip-card":
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/@ivangonzalezg/react-native-flip-card/-/react-native-flip-card-3.5.6.tgz#fc377533bb7f1484dd71a8470f3ac7f8d7d5bd6e"
+  integrity sha512-EBm15ld6F+ZjsDITHYHDfu1eol7N/A6zxY/U5ADdB4Pc6lsl42ncYwPQtdfEtrFyS5Fk7HzSSxByAg8m6pDHcw==
   dependencies:
+    deprecated-react-native-prop-types "^2.3.0"
     prop-types "^15.5.10"
 
 react-proxy@^1.1.7:
