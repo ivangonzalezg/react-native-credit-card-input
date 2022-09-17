@@ -7,7 +7,10 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from "react-native";
-import { ViewPropTypes } from "deprecated-react-native-prop-types";
+import {
+  ViewPropTypes,
+  TextPropTypes,
+} from "deprecated-react-native-prop-types";
 
 const s = StyleSheet.create({
   baseInputStyle: {
@@ -26,8 +29,8 @@ export default class CCInput extends Component {
     status: PropTypes.oneOf(["valid", "invalid", "incomplete"]),
 
     containerStyle: ViewPropTypes.style,
-    inputStyle: Text.propTypes.style,
-    labelStyle: Text.propTypes.style,
+    inputStyle: TextPropTypes.style,
+    labelStyle: TextPropTypes.style,
     validColor: PropTypes.string,
     invalidColor: PropTypes.string,
     placeholderColor: PropTypes.string,
